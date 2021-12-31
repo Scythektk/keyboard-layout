@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Keyboard</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="shortcut icon" href="/images/keyboard.ico" />
+</head>
+<body>
+    <div class="keyboard">
+        <!-- Row 0 -->
+        <div class="key special_key" key-text="esc"></div>
+        <div class="key special_key" key-text="F1"></div>
+        <div class="key special_key" key-text="F2"></div>
+        <div class="key special_key" key-text="F3"></div>
+        <div class="key special_key" key-text="F4"></div>
+        <div class="key special_key" key-text="F5"></div>
+        <div class="key special_key" key-text="F6"></div>
+        <div class="key special_key" key-text="F7"></div>
+        <div class="key special_key" key-text="F8"></div>
+        <div class="key special_key" key-text=""><img src="/images/volumedown.png" alt="vol down" class="not_power"></div>
+        <div class="key special_key" key-text=""><img src="/images/volumeup.png" alt="vol up" class="not_power"></div>
+        <div class="key special_key power_key" key-text="" ><img src="/images/onoff.png" alt="Power"></div>
+        <!-- End Row 0 -->
+
+        <!-- Row 1 -->
+        <div class="key standard_key" key-text="`"></div>
+        <div class="key standard_key" key-text="1"></div>
+        <div class="key standard_key" key-text="2"></div>
+        <div class="key standard_key" key-text="3"></div>
+        <div class="key standard_key" key-text="4"></div>
+        <div class="key standard_key" key-text="5"></div>
+        <div class="key standard_key" key-text="6"></div>
+        <div class="key standard_key" key-text="7"></div>
+        <div class="key standard_key" key-text="8"></div>
+        <div class="key standard_key" key-text="9"></div>
+        <div class="key standard_key" key-text="0"></div>
+        <div class="key standard_key" key-text="-"></div>
+        <div class="key standard_key" key-text="="></div>
+        <div class="key key-2units right_align_key" key-text=" &nbsp &nbsp &nbsp &nbsp delete"></div>
+        <!-- End Row 1 -->
+
+        <!-- Row 2 -->
+        <div class="key key-1_5units left_align_key" key-text="tab"></div>
+        <div class="key standard_key" key-text="Q"></div>
+        <div class="key standard_key" key-text="W"></div>
+        <div class="key standard_key" key-text="E"></div>
+        <div class="key standard_key" key-text="R"></div>
+        <div class="key standard_key" key-text="T"></div>
+        <div class="key standard_key" key-text="Y"></div>
+        <div class="key standard_key" key-text="U"></div>
+        <div class="key standard_key" key-text="I"></div>
+        <div class="key standard_key" key-text="O"></div>
+        <div class="key standard_key" key-text="P"></div>
+        <div class="key standard_key" key-text="["></div>
+        <div class="key standard_key" key-text="]"></div>
+        <div class="key key-1_5units center_align_key" key-text=" &nbsp &nbsp &nbsp \"></div>
+        <!-- End Row 2 -->
+
+        <!-- Row 3 -->
+        <div class="key key-1_75units left_align_key" key-text="caps lock"></div>
+        <div class="key standard_key" key-text="A"></div>
+        <div class="key standard_key" key-text="S"></div>
+        <div class="key standard_key" key-text="D"></div>
+        <div class="key standard_key" key-text="F"></div>
+        <div class="key standard_key" key-text="G"></div>
+        <div class="key standard_key" key-text="H"></div>
+        <div class="key standard_key" key-text="J"></div>
+        <div class="key standard_key" key-text="K"></div>
+        <div class="key standard_key" key-text="L"></div>
+        <div class="key standard_key" key-text=";"></div>
+        <div class="key standard_key" key-text="'"></div>
+        <div class="key key-2_25units right_align_key" key-text=" &emsp13; &emsp13; &emsp13; &emsp13; &emsp13; &emsp13; return"></div>
+        <!-- End Row 3 -->
+
+        <!-- Row 4 -->
+        <div class="key key-2_5units left_align_key" key-text="shift"></div>
+        <div class="key standard_key" key-text="Z"></div>
+        <div class="key standard_key" key-text="X"></div>
+        <div class="key standard_key" key-text="C"></div>
+        <div class="key standard_key" key-text="V"></div>
+        <div class="key standard_key" key-text="B"></div>
+        <div class="key standard_key" key-text="N"></div>
+        <div class="key standard_key" key-text="M"></div>
+        <div class="key standard_key" key-text=","></div>
+        <div class="key standard_key" key-text="."></div>
+        <div class="key standard_key" key-text="/"></div>
+        <div class="key key-2_5units right_align_key" key-text=" &emsp13; &emsp13; &emsp13; &emsp13; &emsp13; &emsp13; &emsp13; &emsp13; shift"></div>
+        <!-- End Row 4 -->
+
+        <!-- Row 5 -->
+        <div class="key standard_key left_align_key" key-text="fn"></div>
+        <div class="key key-1_75units left_align_key" key-text="ctrl"></div>
+        <div class="key standard_key left_align_key" key-text="alt"></div>
+        <div class="key key-6_25units" key-text=""></div>
+        <div class="key standard_key right_align_key" key-text="ctrl"></div>
+        <div class="key standard_key right_align_key" key-text="alt"></div>
+        <div class="arrows">
+            <!-- this contains two empty divs to help with positioning of the arrow keys -->
+            <div class="arrow_key"></div>
+            <div class="key arrow_key" key-text=" &#9650; "></div>
+            <div class="arrow_key"></div>
+            <div class="key arrow_key" key-text=" &#9668; "></div>
+            <div class="key arrow_key" key-text=" &#9660; "></div>
+            <div class="key arrow_key" key-text=" &#9658; "></div>
+        </div>
+        <!-- End Row 5 -->
+    </div>
+</body>
+</html>
